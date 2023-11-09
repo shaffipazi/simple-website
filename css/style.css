@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(../image/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 80px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0px;
+}
+
+.brand h1{
+    color: #fff;
+    font-size: 38px;
+}
+
+nav ul{
+    width: 100%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: #8a8a8a;
+    transition: 0.5s;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: #f55525;
+    border-radius: 5px;
+}
+
+.btn a:hover{
+    background-color: #bdab22;
+    transition: 0.5s;
+}
+
+.content{
+    margin-top: 180px;
+    color: #fff;
+    max-width: 580px;
+}
+
+.content h1{
+    font-size: 50px;
+    margin-bottom: 22px;
+}
+
+.content p{
+    font-size: 17px;
+}
+
+.button{
+    margin-top: 30px;
+}
+.button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 14px 25px;
+    background-color: #f55525;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.button a:hover{
+    background-color: #bdab22;
+    transition: 0.5s;
+}
